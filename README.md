@@ -1,5 +1,5 @@
 # 🚀 Telegram User-bot on NodeJS
-User-bot to simplify the work of the client and server in Telegram. Based on **[TGSNAKE](https://tgsnake.js.org)**
+User-bot to simplify the work of the client and server in Telegram. Based on **[TGSNAKE](https://tgsnake.js.org)**. It has only 2 commands and a set of utilities to simplify work in a working environment.
 
 ## Installation
 
@@ -14,7 +14,7 @@ All documentation on methods, errors, requests, and additional information is on
 
 ## License 
 
-This information is distributed for informational purposes. We are not trying to offend anyone. For more information go to the file 
+This information is distributed for informational purposes. We are not trying to offend anyone. For more information go to the file **[LICENSE](https://github.com/spelsinx/tg-userbot-js/blob/main/LICENSE)**
 
 
 
