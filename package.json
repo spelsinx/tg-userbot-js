@@ -1,0 +1,16 @@
+{
+  "name": "tg-userbot-js",
+  "version": "0.0.1",
+  "description": "Modular userbot to simplify the work of the client in Telegram.",
+  "main": "bot.js",
+  "scripts": {
+    "go": "node bot.js"
+  },
+  "keywords": [],
+  "author": "spelsinx",
+  "license": "MIT",
+  "dependencies": {
+    "openssh": "^1.0.3",
+    "ping": "^0.4.2"
+  }
+}
