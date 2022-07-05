@@ -1,7 +1,7 @@
 {
   "name": "tg-userbot-js",
   "version": "0.0.1",
-  "description": "Modular userbot to simplify the work of the client in Telegram.",
+  "description": "User-bot to simplify the work of the client and server in Telegram. Based on TGSNAKE ♥️",
   "main": "bot.js",
   "scripts": {
     "go": "node bot.js"
