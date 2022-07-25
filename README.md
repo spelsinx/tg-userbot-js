@@ -6,7 +6,7 @@ User-bot to simplify the work of the client and server in Telegram. Based on **[
 1. Clone this repository to your folder `git clone https://github.com/spelsinx/tg-userbot-js`.
 2. Insert your **HASH API** and **API ID** to file bot.js – **in certain lines below!**.
 3. Install all dependencies `npm install` **or** `npm install tgsnake` && `npm install ping`.
-4. Launch your user-bot by using `npm go`**or** `node bot.js`.
+4. Launch your user-bot by using `npm go` **or** `node bot.js`.
 
 ## Documentation
 
