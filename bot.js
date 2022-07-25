@@ -84,7 +84,7 @@ bot.hears(".info", async (ctx) => {  // one command to edit a message, often use
   await ctx.telegram.editMessage(ctx.chat.id,msg.message.id,`📖 Found:  info... `)
   }
   setTimeout(go, 2000);
-})
+});
 
 /* next for api, getting answers and then */
 bot.hears(".ping", async (ctx) => { // two command for check ping
@@ -98,5 +98,5 @@ bot.hears(".ping", async (ctx) => { // two command for check ping
  } else {
    await ctx.reply(pongMsg);
  } 
-})
+});
 
