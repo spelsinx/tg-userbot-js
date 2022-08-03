@@ -1,12 +1,12 @@
 const {  Snake  } = require("tgsnake")
-const ping = require("ping")
-const commands = [];
 // import {Snake} from "tgsnake"
+const ping = require("ping")
 const bot = new Snake({
   apiHash : "process.env.HASH", // your api hash // e.g 123e1bd232c12a13f1234567be0c9
   apiId :  process.env.API // your api id // e.g 123456
   // for the bot from the father's bot, add the line botToken: "123456:abcdefghijklmniurs" // token
 })
+
 try {
 bot.run() //snake running
 } catch (err) {
@@ -91,7 +91,7 @@ bot.hears(".ping", async (ctx) => { // two command for check ping
  console.log(`🛸 LOGGING: ${ctx.text}`)
  const ress = console.log(ctx);
  const msgId = ctx.id;
- const pingRes = await ping.promise.probe("google.com");
+ const pingRes = await ping.promise.probe("telegram.org");
  const pongMsg = `🏓 Pong\n${pingRes.time} ms`;
  if(msgId) {
   ctx.telegram.editMessage(ctx.chat.id,msgId,pongMsg);
