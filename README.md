@@ -14,7 +14,7 @@ All documentation on methods, errors, requests, and additional information is on
 
 ## License 
 
-This information is distributed for informational purposes. We are not trying to offend anyone. For more information go to the file **[LICENSE](https://github.com/spelsinx/tg-userbot-js/blob/main/LICENSE)**
+This information is distributed for informational purposes. We are not trying to offend anyone. For more information go to the file **[LICENSE](https://github.com/spelsinx/tg-userbot-js/blob/main/LICENSE)**. 
 
 
 
