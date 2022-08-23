@@ -1,14 +1,14 @@
-const {  Snake  } = require("tgsnake")
-// import {Snake} from "tgsnake"
+const { Telestatic } = require('telestatic');
+// import { Telestatic } from 'telestatic';
 const ping = require("ping")
-const bot = new Snake({
+const bot = new Telestatic({
   apiHash : process.env.HASH, // your api hash // e.g "123e1bd232c12a13f1234567be0c9"
   apiId :  process.env.API // your api id // e.g 123456
   // for the bot from the father's bot, add the line botToken: "123456:abcdefghijklmniurs" // token
-})
+}); 
 
 try {
-bot.run() //snake running
+bot.run(); // telestatic running
 } catch (err) {
  console.log("Error: clear the file cache.json and paste [] – and check your code for errors.")
 }
@@ -90,7 +90,7 @@ bot.hears(".ping", async (ctx) => { // two command for check ping
  const pingRes = await ping.promise.probe("telegram.org");
  const pongMsg = `🏓 Pong\n${pingRes.time} ms`;
  if(msgId) {
-  ctx.telegram.editMessage(ctx.chat.id,msgId,pongMsg);
+   ctx.telegram.editMessage(ctx.chat.id,msgId,pongMsg);
  } else {
    await ctx.reply(pongMsg);
  } 
