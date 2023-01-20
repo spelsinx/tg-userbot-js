@@ -1,14 +1,14 @@
-const { Telestatic } = require('telestatic');
-// import { Telestatic } from 'telestatic';
+const { Snake } = require('tgsnake');
+// import { Snake } from 'tgsnake';
 const ping = require("ping")
-const bot = new Telestatic({
+const bot = new Snake({
   apiHash : process.env.HASH, // your api hash // e.g "123e1bd232c12a13f1234567be0c9"
   apiId :  process.env.API // your api id // e.g 123456
   // for the bot from the father's bot, add the line botToken: "123456:abcdefghijklmniurs" // token
 }); 
 
 try {
-bot.run(); // telestatic running
+bot.run(); // snake running
 } catch (err) {
  console.log("Error: clear the file cache.json and paste [] – and check your code for errors.")
 }
