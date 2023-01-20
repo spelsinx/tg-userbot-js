@@ -10,7 +10,7 @@ User-bot to simplify the work of the client and server in Telegram. Based on **[
 
 ## Documentation
 
-All documentation on methods, errors, requests, and additional information is on the **[TELESTATIC](https://github.com/spelsinx/telestatic)** repository.
+All documentation on methods, errors, requests, and additional information  **[TGSNAKE](https://github.com/tgsnake/tgsnake)** repository.
 
 ## License 
 
